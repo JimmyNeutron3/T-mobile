@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Calculator Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css2.css') }}">
+</head>
+<body>
+    <h1>Sales Calculator Results</h1>
+
+    <div class="result-box">
+        <p>{{ option1_name }}:</p>
+        <p>Monthly Payment: ${{ monthly_payment_option1 }}</p>
+        <p>Amount Due Today: ${{ amount_due_today_option1 }}</p>
+    </div>
+
+    <div class="result-box">
+        <p>{{ option2_name }}:</p>
+        <p>Monthly Payment: ${{ monthly_payment_option2 }}</p>
+        <p>Amount Due Today: ${{ amount_due_today_option2 }}</p>
+    </div>
+
+    <div class="result-box">
+        <p>{{ option3_name }}:</p>
+        <p>Monthly Payment: ${{ monthly_payment_option3 }}</p>
+        <p>Amount Due Today: ${{ amount_due_today_option3 }}</p>
+    </div>
+</body>
+</html>

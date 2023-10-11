@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Sales Calculator</h1>
+    <form method="POST" class="input-form">
+        <label for="phone_price">Phone Price: $</label>
+        <input type="number" name="phone_price" required><br>
+        <label for="insurance_cost">Monthly Insurance Cost: $</label>
+        <input type="number" name="insurance_cost" required><br>
+        <label for="down_payment">Down Payment: $</label>
+        <input type="number" name="down_payment" required><br>
+        <label for="promotion_value">Promotional Credit: $</label>
+        <input type="number" name="promotion_value" required><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>

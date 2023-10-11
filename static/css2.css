@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #272727; /* Dark background color */
+    color: magenta; /* Magenta text color */
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    font-weight: bold; /* Make h1 text bold */
+    text-decoration: underline; /* Underline h1 text */
+}
+
+.result {
+    background-color: #444; /* Dark gray result box */
+    border: 2px solid magenta;
+    padding: 20px;
+    margin: 20px;
+    width: 70%;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Add box shadow for depth */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.result-box {
+    background-color: #333; /* Dark gray result box background */
+    padding: 20px;
+    border: 2px solid magenta;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    width: 30%; /* Adjust width for 3 boxes to fit side by side */
+    margin: 10px; /* Add margin between boxes */
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold; /* Make p text bold */
+}
